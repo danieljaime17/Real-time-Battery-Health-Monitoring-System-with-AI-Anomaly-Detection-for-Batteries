@@ -9,5 +9,7 @@ This dataset comprises a small set of data, specifically the seconds during whic
 ## Rest mode
 These data consist of voltage values that are slightly stable initially but gradually decrease over time due to the ongoing operation of control devices, even when the vehicle is turned off. These data can identify anomalies such as parasitic currents affecting the vehicle during rest mode. Additionally, this dataset is the largest among the three states. It's worth noting that the control device used in this project includes a temperature sensor, crucial for monitoring battery levels, especially when the vehicle is off, as temperature fluctuations can drastically reduce battery levels.
 
+
 ## Running mode
 This dataset also exhibits slight stability, albeit less than that of the rest mode, as the battery voltage is negatively affected by various vehicle control devices and positively influenced as the alternator charges the battery.
+
